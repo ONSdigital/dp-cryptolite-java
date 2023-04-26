@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.onsdigital</groupId>
     <artifactId>dp-cryptolite-java</artifactId>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.5.1</version>
     <packaging>jar</packaging>
     <name>dp-cryptolite-java</name>
     <description>Fork of davidcarboni/cryptolite</description>
