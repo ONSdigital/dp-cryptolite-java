@@ -190,6 +190,11 @@
                     <fail>true</fail>
                     <cvssScoreThreshold>7.0</cvssScoreThreshold>
                     <excludeCoordinates>
+                        <exlude>
+                            <groupId>org.bouncycastle</groupId>
+                            <artifactId>bcprov-jdk15on</artifactId>
+                            <version>1.70</version>
+                        </exlude>
                     </excludeCoordinates>
                 </configuration>
             </plugin>
