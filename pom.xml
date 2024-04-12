@@ -28,8 +28,8 @@
         <!-- Note that 1.5, 1.4, 1.3 and 1.2 versions are also available from Bouncy Castle. -->
         <dependency>
             <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.70</version>
+            <artifactId>bcprov-jdk18on</artifactId>
+            <version>1.78</version>
         </dependency>
 
         <!-- Compile dependencies -->
@@ -190,11 +190,6 @@
                     <fail>true</fail>
                     <cvssScoreThreshold>7.0</cvssScoreThreshold>
                     <excludeCoordinates>
-                        <exlude>
-                            <groupId>org.bouncycastle</groupId>
-                            <artifactId>bcprov-jdk15on</artifactId>
-                            <version>1.70</version>
-                        </exlude>
                     </excludeCoordinates>
                 </configuration>
             </plugin>
